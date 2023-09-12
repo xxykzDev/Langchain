@@ -83,5 +83,6 @@ const ResultWithSources = ({ messages, pngFile, maxMsgs }) => {
     </div>
   );
 };
+export const useClient = ResultWithSources;
 
 export default ResultWithSources;
